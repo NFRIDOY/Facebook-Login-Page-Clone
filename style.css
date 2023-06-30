@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .formInput{
+        @apply p-2 border-[1px] border-separate border-gray-400 rounded-lg m-1; 
+    }
+}

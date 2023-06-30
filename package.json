@@ -1,0 +1,20 @@
+{
+  "name": "facebook-login-page-clone",
+  "version": "1.0.0",
+  "description": "This is a clone of the Facebook login page. It has been made using HTML, CSS Framwork Tailwind and Js.\r <!-- ## Demo:  [Click Here](https://facebook-loginpageclone.netlify.app/) -->\r <!-- ![image](https://user-images.githubusercontent.com/72465810/139599314-c6f3d4a9-b3e8-40ce-afac-34861 -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
