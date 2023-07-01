@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,44 @@
     <link rel="stylesheet" href="style.css">
     <title>Facebook</title>
 </head>
+
 <body>
-    <main class="flex bg-[#F0F2F5] h-screen">
-        <div class="Left ms-64 mt-52 me-16">
-            <div>
-                <img src="images/fbTitle.svg" alt="" class="w-[301px] h-[106px]">
-            </div>
-            <div>
-                <p class="text-[30px]">
-                    Facebook helps you connect and share <br> with the people in your life.
-                </p>
-            </div>
+    <main class="flex bg-[#F0F2F5] h-screen justify-center">
+        <div class="Left ms-0 mt-48 me-0">
+            <img src="images/fbTitle.svg" alt="" class="w-[301px] h-[106px]">
+            <p class="text-[30px] ms-8">
+                Facebook helps you connect and share <br> with the people in your life.
+            </p>
         </div>
         <!-- h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br> -->
-        <div class="Right my-44 ms-12 w-[396px]">
-            <div class="Form bg-white shadow-md p-8 w-full border-2 rounded-sm">
-                <Form class="w-full">
-                    <input class="w-full formInput h-[52px]" type="text" name="userId" id="userId" placeholder="Email address or phone number"> <br>
-                    <input class="w-full formInput h-[52px]" type="password" name="password" id="password" placeholder="Password"> <br>
-                    <div class="flex justify-center">
-                        <button class="w-full formInput h-12 bg-[#1877F2] text-white text-center" type="submit" >Log in</button>
-                    </div>
-                    <div class="ForgottenPass flex justify-center">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Forgotten password?</a>
-                    </div>
-                    <hr class="">
-                    <div class=" flex justify-center">
-                        <a href="" type="button" class="CreateNewAc formInput bg-green-600 text-white">Create new account</a>
-                    </div>
-
-                </Form>
+        <div class="Right my-0 mt ms-12 w-96 h-full flex flex-col justify-center">
+            <div class="Form flex flex-col items-center bg-white shadow-md p-4 w-full border-2 rounded-lg h-auto">
+                <input class="w-full mx-2 my-2 p-4 h-[52px] border-[1px] border-separate border-gray-400 rounded-lg " type="text" name="userId" id="userId"
+                    placeholder="Email address or phone number">
+                <input class="w-full mx-2 my-2 p-4 h-12 border-[1px] border-separate border-gray-400 rounded-lg" type="password" name="password" id="password"
+                    placeholder="Password">
+                <button class="w-full mx-2 my-2 p-4 h-12 bg-[#1877F2] text-white text-center" type="submit">Log
+                    in</button>
+                <a class="mx-2 my-2 text-[#1877F2]" href="http://" target="_blank" rel="noopener noreferrer">Forgotten password?</a>
+                <div class="h-px w-full bg-gray-200 mx-2 my-2"></div>
+                <a href="" type="button" class="CreateNewAc mx-2 my-2 px-4 py-3 h-12 border-[1px] border-separate border-gray-400 rounded-lg bg-[#36A420] text-white font-bold">Create new
+                    account</a>
             </div>
-            <div class="CreatePage flex justify-center">
-                <a href="http://" target="_blank" rel="noopener noreferrer" class="decoration-black">Create a Page </a> <span>&nbsp;for a celebrity, brand or business.</span> 
+            <div class="CreatePage flex justify-center py-4">
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="decoration-black font-semibold">Create a Page </a>
+                <span>&nbsp;for a celebrity, brand or business.</span>
+                
             </div>
         </div>
+
     </main>
+
+    <div class="w-48 h-48 bg-red-600">
+        <div class="w-40 h-40 bg-violet-600 ms-[-16px]">
+
+        </div>
+    </div>
+
 </body>
+
 </html>
