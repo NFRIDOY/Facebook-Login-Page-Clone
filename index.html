@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Tailwind PostCSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fb-favicon.png" type="image/x-icon">
     <title>Facebook</title>
 </head>
 
 <body>
     <main class="flex bg-[#F0F2F5] h-screen justify-center">
         <div class="Left ms-0 mt-48 me-0">
-            <img src="images/fbTitle.svg" alt="" class="w-[301px] h-[106px]">
+            <img src="images/fbTitle.svg" alt="" class="w-72  h-[106px]">
             <p class="text-[30px] ms-8">
                 Facebook helps you connect and share <br> with the people in your life.
             </p>
         </div>
         <!-- h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br>h <br> -->
-        <div class="Right my-0 mt ms-12 w-96 h-full flex flex-col justify-center">
-            <div class="Form flex flex-col items-center bg-white shadow-md p-4 w-full border-2 rounded-lg h-auto">
-                <input class="w-full mx-2 my-2 p-4 h-[52px] border-[1px] border-separate border-gray-400 rounded-lg " type="text" name="userId" id="userId"
-                    placeholder="Email address or phone number">
-                <input class="w-full mx-2 my-2 p-4 h-12 border-[1px] border-separate border-gray-400 rounded-lg" type="password" name="password" id="password"
-                    placeholder="Password">
-                <button class="w-full mx-2 my-2 p-4 h-12 bg-[#1877F2] text-white text-center" type="submit">Log
+        <div class="Right my-0 mt ms-12 w-96 h-full flex flex-col justify-center ">
+            <div class="Form flex flex-col items-center bg-white shadow-md p-4 w-full border-2 rounded-lg h-auto text-lg">
+                <input class="w-full mx-2 my-2 p-4 h-[52px] border-[1px] border-separate border-gray-300 rounded-lg  outline-blue-600 outline-1 "
+                    type="text" name="userId" id="userId" placeholder="Email address or phone number">
+                <input class="w-full mx-2 my-2 p-4 h-12 border-[1px] border-separate border-gray-300 rounded-lg outline-blue-600 outline-1"
+                    type="password" name="password" id="password" placeholder="Password">
+                <button class="w-full mx-2 my-2 h-12 bg-[#1877F2] text-white font-bold text-xl rounded-lg" type="submit">Log
                     in</button>
-                <a class="mx-2 my-2 text-[#1877F2]" href="http://" target="_blank" rel="noopener noreferrer">Forgotten password?</a>
+                <a class="mx-2 my-2 text-[#1877F2] hover:underline text-sm" href="http://" target="_blank" rel="noopener noreferrer">Forgotten
+                    password?</a>
                 <div class="h-px w-full bg-gray-200 mx-2 my-2"></div>
-                <a href="" type="button" class="CreateNewAc mx-2 my-2 px-4 py-3 h-12 border-[1px] border-separate border-gray-400 rounded-lg bg-[#36A420] text-white font-bold">Create new
-                    account</a>
+                <a href="" type="button"
+                    class="CreateNewAc mx-2 my-2 px-4 py-3  border-[1px] border-separate border-gray-400 rounded-lg bg-[#42b72a] text-white font-bold hover:bg-[#36A420]  ">
+                    Create new account</a>
             </div>
             <div class="CreatePage flex justify-center py-4">
-                <a href="http://" target="_blank" rel="noopener noreferrer" class="decoration-black font-semibold">Create a Page </a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                    class="decoration-black font-semibold hover:underline">Create a Page </a>
                 <span>&nbsp;for a celebrity, brand or business.</span>
-                
+
             </div>
         </div>
 
